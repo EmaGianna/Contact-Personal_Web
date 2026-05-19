@@ -188,6 +188,30 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <div class="timeline-header">
+                            <h3>
+                                <a href="https://beridata.cloud/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;border-bottom:1px solid currentColor;">beridata</a>
+                            </h3>
+                            <span class="timeline-date">2025 - Actual</span>
+                        </div>
+                        <p class="timeline-role">Fundador &amp; Data Engineer</p>
+                        <p class="timeline-description">
+                            Consultoría en ingeniería de datos, diseño de pipelines y soluciones cloud.
+                            Desarrollo de herramientas open source para el ecosistema de datos en AWS.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Supabase</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Next.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
                             <h3>FreeLance / Contractor</h3>
                             <span class="timeline-date">Mar 2023 - Actual</span>
                         </div>
@@ -452,17 +476,20 @@
         <div class="container">
             <h2 class="section-title">Proyectos</h2>
             <div class="projects-grid">
+
+                <!-- AWS Data Center -->
                 <div class="project-card">
                     <div class="project-header">
                         <div class="project-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                <rect x="2" y="2" width="20" height="8" rx="2"></rect>
+                                <rect x="2" y="14" width="20" height="8" rx="2"></rect>
+                                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                <line x1="6" y1="18" x2="6.01" y2="18"></line>
                             </svg>
                         </div>
                         <div class="project-links">
-                            <a href="https://faodataanalysis.streamlit.app/" target="_blank" rel="noopener noreferrer" class="project-link" title="Ver Demo">
+                            <a href="https://aws-data-center.beridata.cloud/" target="_blank" rel="noopener noreferrer" class="project-link" title="Ver App">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                                     <polyline points="15 3 21 3 21 9"></polyline>
@@ -471,29 +498,32 @@
                             </a>
                         </div>
                     </div>
-                    <h3 class="project-title">FAO Data Analysis</h3>
+                    <h3 class="project-title">AWS Data Center</h3>
                     <p class="project-description">
-                        Aplicación de análisis de datos de la FAO (Organización de las Naciones Unidas para la Alimentación y la Agricultura).
-                        Visualización interactiva de datos agrícolas y alimentarios globales.
+                        App de escritorio estilo Kodi para gestionar servicios de datos en AWS.
+                        Soporta S3, DynamoDB, RDS, Redshift, Glue, Athena, Lambda, CloudWatch y más.
+                        Alternativa open source y liviana a Commandeer.
                     </p>
                     <div class="project-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Streamlit</span>
-                        <span class="tag">Data Analysis</span>
+                        <span class="tag">Tauri 2</span>
+                        <span class="tag">Rust</span>
+                        <span class="tag">AWS SDK</span>
+                        <span class="tag">Open Source</span>
                     </div>
                 </div>
 
+                <!-- ETL Agro Transport -->
                 <div class="project-card">
                     <div class="project-header">
                         <div class="project-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
-                                <path d="M2 17l10 5 10-5"></path>
-                                <path d="M2 12l10 5 10-5"></path>
+                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
                             </svg>
                         </div>
                         <div class="project-links">
-                            <a href="https://appllmbenchmark.streamlit.app/" target="_blank" rel="noopener noreferrer" class="project-link" title="Ver Demo">
+                            <a href="https://agro-transport-analytics-ar.beridata.cloud/" target="_blank" rel="noopener noreferrer" class="project-link" title="Ver App">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                                     <polyline points="15 3 21 3 21 9"></polyline>
@@ -502,19 +532,50 @@
                             </a>
                         </div>
                     </div>
-                    <h3 class="project-title">LLM Benchmark App</h3>
+                    <h3 class="project-title">ETL Agro Transport Analytics</h3>
                     <p class="project-description">
-                        Herramienta para benchmarking y comparación de modelos de lenguaje (LLMs).
-                        Permite evaluar y comparar el rendimiento de diferentes modelos de IA.
+                        Pipeline serverless y dashboard para análisis de transporte de commodities agrícolas en Argentina.
+                        Datos de buques (NABSA) y camiones (Williams) actualizados diariamente.
                     </p>
                     <div class="project-tags">
                         <span class="tag">Python</span>
                         <span class="tag">Streamlit</span>
-                        <span class="tag">LLM</span>
-                        <span class="tag">AI</span>
+                        <span class="tag">Supabase</span>
+                        <span class="tag">GitHub Actions</span>
                     </div>
                 </div>
 
+                <!-- Medium -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                            </svg>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://medium.com/@emanuel.giannattasio" target="_blank" rel="noopener noreferrer" class="project-link" title="Ver artículos">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Artículos en Medium</h3>
+                    <p class="project-description">
+                        Publicaciones técnicas sobre ingeniería de datos, AWS, pipelines ETL y arquitecturas cloud.
+                        Experiencias y aprendizajes del trabajo diario en el ecosistema de datos.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Data Engineering</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">ETL</span>
+                    </div>
+                </div>
+
+                <!-- GitHub -->
                 <div class="project-card project-card--github">
                     <div class="project-header">
                         <div class="project-icon">
@@ -534,14 +595,14 @@
                     </div>
                     <h3 class="project-title">Más Proyectos en GitHub</h3>
                     <p class="project-description">
-                        Explora más proyectos, experimentos y contribuciones en mi perfil de GitHub.
-                        Código abierto y proyectos personales relacionados con Data Engineering.
+                        Explorá más proyectos, experimentos y contribuciones open source relacionados con Data Engineering.
                     </p>
                     <div class="project-tags">
                         <span class="tag">Open Source</span>
                         <span class="tag">Data Engineering</span>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -672,7 +733,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Emanuel Giannattasio. Todos los derechos reservados.</p>
+                <p>&copy; 2025 Emanuel Giannattasio. Todos los derechos reservados.</p>
                 <div class="footer-links">
                     <a href="https://www.linkedin.com/in/emanuel-giannattasio-76744911/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <svg viewBox="0 0 24 24" fill="currentColor">
